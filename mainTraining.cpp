@@ -66,10 +66,23 @@ using namespace std;
 int main()
 {
     int a{-5};
+    unsigned int b{+3};
+
+    short c{-2};
+
+    unsigned int short d{4};
 
     cout << "a: " << a << endl;
     cout << "type of a: " << sizeof(a) << endl;
 
+    cout << "b: " << b << endl;
+    cout << "type of b: " << sizeof(b) << endl;
+
+    cout << "c: " << c << endl;
+    cout << "type of c: " << sizeof(c) << endl;
+
+    cout << "d: " << d << endl;
+    cout << "type of d: " << sizeof(d) << endl;
 
     return 0;
 }
