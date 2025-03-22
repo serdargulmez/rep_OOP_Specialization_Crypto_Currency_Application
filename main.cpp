@@ -122,8 +122,15 @@ int main()
     products.push_back("BTC/USDT");
     orderTypes.push_back(OrderBookType::bid);
 
+    prices.push_back(5.01);
+    amounts.push_back(0.001);
+    timestamps.push_back("2020/03/17 17:01:24.884492");
+    products.push_back("BTC/USDT");
+    orderTypes.push_back(OrderBookType::bid);
+
     cout << "prices: " << prices[0] << endl;
     cout << "prices: " << prices[1] << endl;
+    cout << "prices: " << prices[2] << endl;
 
     // while(true)
     // {
