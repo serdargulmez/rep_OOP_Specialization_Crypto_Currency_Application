@@ -3,3 +3,4 @@
  // The purpose is to make a simulation of crypto currency platform with c++.
  // 01.
  // 03.
+ // 04.
