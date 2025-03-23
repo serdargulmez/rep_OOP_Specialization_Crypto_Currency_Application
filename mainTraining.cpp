@@ -74,6 +74,8 @@ int main()
 
     short int e(3);
 
+    int short g{5};
+
     cout << "a: " << a << endl;
     cout << "type of a: " << sizeof(a) << endl;
 
@@ -88,6 +90,9 @@ int main()
 
     cout << "e: " << e << endl;
     cout << "type of e: " << sizeof(e) << endl;
+
+    cout << "g: " << g << endl;
+    cout << "type of g: " << sizeof(g) << endl;
 
     return 0;
 }
