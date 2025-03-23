@@ -2,3 +2,4 @@
  // This project includes object oriented programming structure.
  // The purpose is to make a simulation of crypto currency platform with c++.
  // 01.
+ // 02.
