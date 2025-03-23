@@ -72,6 +72,8 @@ int main()
 
     unsigned int short d{4};
 
+    short int e(3);
+
     cout << "a: " << a << endl;
     cout << "type of a: " << sizeof(a) << endl;
 
@@ -83,6 +85,9 @@ int main()
 
     cout << "d: " << d << endl;
     cout << "type of d: " << sizeof(d) << endl;
+
+    cout << "e: " << e << endl;
+    cout << "type of e: " << sizeof(e) << endl;
 
     return 0;
 }
